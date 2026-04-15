@@ -23,11 +23,11 @@ paths:
                 example:
                   - id: 1
                     nom: Tomate
-                    categorie: Légumes
+                    categorie: Vegetable
                     prix: 1.80
                   - id: 2
                     nom: Pomme
-                    categorie: Fruits
+                    categorie: Vegetable
                     prix: 0.90
         '500':
           description: Erreur interne du serveur
@@ -58,7 +58,7 @@ paths:
               example:
                 - id: 2
                   nom: Poulet
-                  categorie: Viande
+                  categorie: Animal
                   prix: 56.2
         '404':
           description: Erreur lors du chargement de l'ingrédient
